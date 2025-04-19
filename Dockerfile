@@ -1,3 +1,3 @@
-FROM nginx:1.20-alpine
+FROM nginx:1.27.5-alpine
 
 COPY index.html /usr/share/nginx/html
